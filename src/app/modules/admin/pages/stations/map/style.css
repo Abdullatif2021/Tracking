@@ -1,0 +1,15 @@
+
+
+.container-list-devices {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 5000;
+    background: white;
+    align-items: center;
+    gap: 20px;
+    padding: 0 10px;
+    overflow: auto;
+}
+

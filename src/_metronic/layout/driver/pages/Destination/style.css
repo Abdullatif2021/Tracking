@@ -1,0 +1,9 @@
+.finalcontainer {
+    position: absolute;
+    left: 280px;
+    right: 280px;
+    width: calc(100% - 280px);
+    height: 100%;
+    background-color: #bd2d3c;
+  }
+

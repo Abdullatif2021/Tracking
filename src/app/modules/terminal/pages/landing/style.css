@@ -1,0 +1,33 @@
+/* .image-container-driver {
+    position: absolute;
+    left: 260px;
+    right: 260px;
+    width: calc(100% - 260px);
+    height: 100%;
+  }
+
+  .image-container-driver img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right ;
+   
+  }
+ */
+
+
+  .image-container-terminal {
+    position: absolute;
+    left: 430px;
+    right: 430px;
+    width: calc(100% - 430px);
+    height: 100%;
+  }
+
+  .image-container-terminal img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right ;
+   
+  }

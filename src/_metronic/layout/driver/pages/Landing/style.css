@@ -1,0 +1,15 @@
+  .image-container {
+    position: absolute;
+    left: 260px;
+    right: 260px;
+    width: calc(100% - 260px);
+    height: 100%;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right ;
+   
+  }

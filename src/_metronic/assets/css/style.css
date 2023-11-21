@@ -1,0 +1,47 @@
+.textFooterArabic {
+  font-size: 1.1rem; /* Default font size */
+}
+
+@media only screen and (min-width: 1345px) {
+  .textFooterArabic {
+    font-size: 1.2rem; /* Increase font size for screens  */
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .textFooterArabic {
+    font-size: 1.3rem; /* Increase font size for screens  */
+  }
+}
+
+.textFooterEnglish {
+  font-size: 0.9rem; /* Default font size */
+}
+
+@media only screen and (min-width: 1345px) {
+  .textFooterEnglish {
+    font-size: 1rem; /* Increase font size for screens  */
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .textFooterEnglish {
+    font-size: 1.1rem; /* Increase font size for screens  */
+  }
+}
+
+.textFooterResult {
+  font-size: 1rem; /* Default font size */
+}
+
+@media only screen and (min-width: 1345px) {
+  .textFooterResult {
+    font-size: 1.1rem; /* Increase font size for screens  */
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .textFooterResult {
+    font-size: 1.2rem; /* Increase font size for screens  */
+  }
+}

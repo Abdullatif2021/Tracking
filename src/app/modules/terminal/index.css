@@ -1,0 +1,125 @@
+.container-car {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.main-car {
+  overflow-x: clip;
+  position: relative;
+  height: calc(100% - 90px);
+  width: 100%;
+  overflow-y: hidden;
+}
+
+
+
+.content-car {
+  height: 100%;
+}
+
+
+.saw-tooth-container::before{
+
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 102px; /* Adjust the width of the sawtooth */
+  height: 100%;
+  background-image:
+    linear-gradient(10deg, #d9d9d9    50%, transparent 50%),
+    linear-gradient(134deg, #d9d9d9    50%, transparent 50%);
+
+  background-position:
+    top left, top left,
+    top right, top right;
+  background-size: 10px 10px;
+  background-repeat: repeat-y;
+}
+
+.saw-tooth-container::before {
+  left: 0;
+}
+
+
+.dotted-line
+
+#ads {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* #video-player {
+    width: 80%;
+    height: auto;
+  }
+  
+  #advertisement {
+    width: 100%;
+  } */
+
+.maplibregl-ctrl-top-right {
+  left: 2px;
+}
+
+.maplibregl-ctrl-group {
+  left: 5px;
+  position: absolute;
+}
+
+#ads {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#video-player {
+  width: 100%;
+  height: auto;
+}
+
+.vidio {
+  width: calc(100%-300px);
+  height: calc(100%-100);
+  ;
+  margin-right: 300px;
+}
+
+#advertisement {
+  width: 100%;
+  height: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('../../../_metronic//assets//frutiger-lt-arabic-cufonfonts/FrutigerLTArabic55Roman.ttf') format('truetype');
+}
+
+body {
+  font-family: 'MyFont', sans-serif;
+}
+
